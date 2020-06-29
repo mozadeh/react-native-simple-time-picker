@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Picker,
   View,
   StyleSheet,
 } from 'react-native';
+import { Picker } from '@react-native-community/picker';
 
 const styles = StyleSheet.create({
   container: {
